@@ -136,7 +136,7 @@ const App = () => {
         </button>
 
       </div>
-        {isFlood === "Flood" ? <h1 style={{fontSize:"2em", backgroundColor:""}}>There is a chance of flooding</h1> : isFlood === "NO Flood" ? <h1 style={{fontSize:"2em"}}>No Flood</h1> : ""}
+        {isFlood === "Flood" ? <h1 style={{fontSize:"2em", backgroundColor:""}}>There is a chance of flooding</h1> : isFlood === "No Flood" ? <h1 style={{fontSize:"2em"}}>No Flood</h1> : ""}
       {/* <Footer></Footer> */}
     </div>
   );
