@@ -64,7 +64,7 @@ const App = () => {
         <h1 className="text-2xl font-semibold mb-4">Flood Prediction</h1>
         <div className="mb-4">
           <label htmlFor="rainFallMarToMay" className="block text-gray-700">
-            Rainfall from March to May:
+            Rainfall from March to May (mm):
           </label>
           <input
             id="rainFallMarToMay"
@@ -79,7 +79,7 @@ const App = () => {
         </div>
         <div className="mb-4">
           <label htmlFor="avgRainFallJun" className="block text-gray-700">
-          Average rainfall in past 10 days of June (mm):
+          Average rainfall in June (mm):
           </label>
           <input
             id="avgRainFallJun "
@@ -94,7 +94,7 @@ const App = () => {
         </div>
         <div className="mb-4">
           <label htmlFor="avgRainFallJul" className="block text-gray-700">
-          Average rainfall in past 10 days of July (mm):
+          Average rainfall in July (mm):
           </label>
           <input
             id="avgRainFallJun "
@@ -112,7 +112,7 @@ const App = () => {
             htmlFor=" avgIncreaseRainFallMayToJun"
             className="block text-gray-700"
           >
-            Average Increase rain from May to June:
+            Average Increase rain from May to June (mm):
           </label>
           <input
             id=" avgIncreaseRainFallMayToJun"
